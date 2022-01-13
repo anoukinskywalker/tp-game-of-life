@@ -85,6 +85,7 @@ while not done:
 
             if (initial_state[i][j]==1) :
                 pygame.draw.rect(screen, (255, 255, 255), (50*j, 50*i, 50, 50))
+
     initial_state=get_next_state(initial_state)
             
 
